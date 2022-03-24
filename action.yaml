@@ -21,7 +21,7 @@ outputs:
     description:  URI of the Keptn endpoint that can be used to communicate with Keptn
     value: ${{ steps.ouput_keptn_env.outputs.KEPTN_ENDPOINT }}
   KEPTN_API_TOKEN:
-    description: A API token needed for the communication with Keptn
+    description: An API token needed for the communication with Keptn
     value: ${{ steps.ouput_keptn_env.outputs.KEPTN_API_TOKEN }}
 runs:
   using: "composite"
